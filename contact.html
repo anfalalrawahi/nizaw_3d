@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request Service - Nizwa 3D</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="https://wa.me/96895788998" class="whatsapp-btn" target="_blank">
+💬
+</a>
+<body>
+
+<header class="header">
+<div class="brand">
+
+  <img src="images/logo.png" class="logo">
+
+<div class="brand-text">
+   <h2>Nizwa 3D</h2>
+  <span data-lang="brandText">
+    Manufacturing & Innovation
+  </span>
+</div>
+
+</div>
+<nav>
+  <a href="index.html" class="active" data-lang="home">Home</a>
+  <a href="services.html" data-lang="services">Services</a>
+  <a href="portfolio.html" data-lang="portfolio">Portfolio</a>
+  <a href="contact.html" data-lang="contact">Contact</a>
+
+
+<button class="lang-btn" onclick="changeLanguage()">
+    🌐 Language
+  </button>
+
+</nav>
+</header>
+
+<section class="contact-page">
+
+
+<div class="section-overlay"></div>
+
+<div class="contact-box">
+
+<h1 data-lang="requestServiceTitle">
+Request a Service
+</h1>
+
+<p data-lang="sendDetails">
+Send us your project details and files.
+</p>
+
+<form id="serviceForm">
+
+
+
+  
+
+
+
+
+
+  <input
+type="text"
+data-lang-placeholder="fullName"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+data-lang-placeholder="emailAddress"
+placeholder="Email Address"
+required>
+
+<input
+type="tel"
+data-lang-placeholder="phoneNumber"
+placeholder="Phone Number">
+
+<select id="serviceSelect" required>
+
+<option value="" data-lang="selectService">
+Select Service
+</option>
+
+<option data-lang="servicePrinting">
+3D Printing
+</option>
+
+<option data-lang="serviceDesign">
+3D Design
+</option>
+
+<option data-lang="serviceModeling">
+3D Modeling
+</option>
+
+<option data-lang="serviceLabs">
+Preparing Labs
+</option>
+
+<option data-lang="serviceWorkshops">
+Workshops
+</option>
+
+</select>
+
+<input type="file">
+
+<textarea
+data-lang-placeholder="projectDescription"
+placeholder="Describe your project">
+</textarea>
+
+
+<button
+type="submit"
+data-lang="sendRequest">
+Send Request </button>
+
+</form>
+
+<div
+id="successMessage"
+data-lang="requestSuccess">
+
+✅ Request Sent Successfully!
+
+</div>
+
+</div>
+
+
+
+
+</section>
+
+<script src="script.js"></script>
+
+
+
+<script src="translations.js"></script>
+<script src="language.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
